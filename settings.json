@@ -1,0 +1,171 @@
+{
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "vim.foldfix": true,
+    "editor.lineNumbers": "relative",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "e",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "e",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.focusSideBar",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex1",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex2",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "3"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex3",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "4"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex4",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "5"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex5",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "6"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex6",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "7"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex7",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "8"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex8",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "9"
+            ],
+            "commands": [
+                "workbench.action.openEditorAtIndex9",
+            ],
+            "silent": true
+        },
+    ],
+    "terminal.integrated.fontSize": 14,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.tmpl": "html",
+        "*.tpl": "html",
+    }
+}
