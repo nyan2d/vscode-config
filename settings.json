@@ -1,11 +1,4 @@
 {
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "vim.foldfix": true,
-    "editor.lineNumbers": "relative",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "explorer.confirmDelete": false,
-    "workbench.startupEditor": "none",
-    "editor.fontSize": 16,
     "vim.normalModeKeyBindings": [
         {
             "before": [
@@ -162,10 +155,29 @@
             "silent": true
         },
     ],
-    "terminal.integrated.fontSize": 14,
     "explorer.confirmDragAndDrop": false,
     "files.associations": {
         "*.tmpl": "html",
         "*.tpl": "html",
+    },
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "vim.foldfix": true,
+    "editor.lineNumbers": "relative",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 14,
+    "editor.fontSize": 14,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+            "source.fixAll": true
+        },
+    },
+    "gopls": {
+        "ui.semanticTokens": true
     }
 }
